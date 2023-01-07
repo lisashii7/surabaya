@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+main {
+	padding: 20px;
+	overflow: auto;
+}
+
+p {
+	margin: 2em 5em 2em 5em;
+}
+
+h1 {
+	font-size: 30px;
+	text-align: center;
+}
+
+h2 {
+	margin: 1em;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+nav {
+	background-color: #0a4773;
+	padding: 5px;
+	height: 60px;
+	display: flex;
+	position: sticky;
+	top: 0;
+}
+
+header {
+	display: inline;
+}
+
+nav a {
+	font-size: 20px;
+	font-weight: 400;
+	text-decoration: none;
+	color: white;
+}
+
+nav a:hover {
+	font-weight: bold;
+	text-shadow: 2px 1px 2px 1px #fff;
+	color: rgb(234, 209, 21);
+}
+
+nav li {
+	margin-top: 1%;
+	display: inline;
+	list-style-type: none;
+	margin-left: 5%;
+
+}
+
+.depan {
+	background:
+		linear-gradient(rgba(91, 88, 88, 0.6),
+			rgba(91, 88, 88, 0.6)),
+		url('https://ikbis.ac.id/wp-content/uploads/2021/03/Anda-di-Surabaya-Inilah-Pentingnya-Menggunakan-Konsultan-Pajak-Surabaya.jpg') no-repeat;
+	background-attachment: fixed;
+	padding: 70px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+	/* background-image: url('https://ikbis.ac.id/wp-content/uploads/2021/03/Anda-di-Surabaya-Inilah-Pentingnya-Menggunakan-Konsultan-Pajak-Surabaya.jpg'); */
+	background-size: cover;
+	height: 610px;
+	text-align: center;
+	font-size: 20px;
+	color: white;
+}
+
+.card {
+	margin: 30px;
+	margin-top: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+	border-radius: 5px;
+	padding: 20px;
+
+}
+
+#content {
+	float: left;
+	width: 75%;
+}
+
+aside {
+	float: right;
+	width: 25%;
+	margin-top: 6.99%;
+	padding-left: -10px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.profil-image {
+	text-align: center;
+}
+
+footer {
+	padding: 20px;
+	color: white;
+	background-color: #0a4773;
+}
+
+@media screen and (max-width: 1000px) {
+
+	#content,
+	aside {
+		width: 100%;
+		padding: 0;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	.card {
+		width: 100%;
+		margin-left: 1px;
+		padding: 0;
+	}
+
+	p {
+		margin-left: 5px;
+	}
+}
